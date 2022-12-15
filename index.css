@@ -1,0 +1,118 @@
+.header{
+  display: flex;
+  background-color: rgb(86,86,86);
+  padding: 5px;
+  
+  justify-content: center;
+}
+.image1{
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border:2px dotted rgb(234, 254, 14);
+}
+.photo_shape p{
+  display: inline-block;
+  font-size: 30px;
+  margin: -15px 0px 15px -15px;
+  
+  background-color: yellow;
+  width: 185px;
+  height: 32px;
+  border-radius: 14%;
+}
+.container_grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+ 
+}
+.grid_item_one{
+  border: 1px solid rgb(247, 244, 244);
+  padding: 10px;
+  margin: 5px;
+}
+.piter{
+  
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-bottom: 0px;
+}
+.all_head
+{ 
+  position: absolute;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+.bar_7
+ {
+  display: inline-block;
+  margin-left: 100px;
+  width: 90px; height: 10px; background-color: #aa5d04;
+}
+.bar_6 
+{
+  display: inline-block;
+  margin-left: 140px;
+  width: 90px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_5 {
+  display: inline-block;
+  margin-left: 125px;
+  width: 60px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_4 {
+  display: inline-block;
+  margin-left: 134px;
+  width: 60px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_3 {
+  display: inline-block;
+  margin-left: 130px;
+   width: 90px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_2 {
+  display: inline-block;
+  margin-left: 125px;
+   width: 90px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_1 {
+  display: inline-block;
+  margin-left: 93px;
+   width: 100px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_8 {
+  display: inline-block;
+  margin-left: 39px;
+   width: 100px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_9 {
+  display: inline-block;
+  margin-left: 93px;
+   width: 80px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_10 {
+  display: inline-block;
+  margin-left: 25px;
+   width: 100px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_11 {
+  display: inline-block;
+  margin-left: 125px;
+   width: 80px; height: 10px; background-color: #aa5d04;
+ }
+ .bar_12 {
+  display: inline-block;
+  margin-left: 96px;
+   width: 100px; height: 10px; background-color: #aa5d04;
+ }
+ #namelessline{
+  border-left: 3px solid black;
+  height: 900px;
+}
